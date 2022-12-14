@@ -1,3 +1,58 @@
+/* - FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
 * {
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #333;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 65fr 45fr;
+  align-items: center;
+  gap: 3.2rem;
+  max-width: 130rem;
+  margin: 4.8rem auto;
+}
+
+.header-info {
+  font-size: 3rem;
+}
+
+h1 {
+  letter-spacing: -0.1rem;
+  margin-bottom: 3.6rem;
+}
+
+.header-summary {
+  margin-bottom: 1.8rem;
+}
+
+.contacts {
+  font-size: 2.4rem;
+  color: #444;
+}
+
+.photo {
+  height: 100%;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
 }
